@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abhishekg2244_TODOUI_1756293690372-push-trigger-input-set
+  identifier: Build_abhishekg2244_TODOUI_1756293690372pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: firstharnessproject
+  pipeline:
+    identifier: Build_abhishekg2244_TODOUI_1756293690372
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
